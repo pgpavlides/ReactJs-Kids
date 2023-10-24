@@ -1,4 +1,5 @@
 # ReactJs-Kids
+### Chapter 1: JSX - Bridging the Gap Between JavaScript and HTML
 
 1.1 What is JSX?
 History and motivation behind JSX.
