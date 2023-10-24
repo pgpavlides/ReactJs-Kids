@@ -16,7 +16,7 @@ JSX to React.createElement().
 Converting HTML snippets to JSX.
 Embedding dynamic data.
 
-###Chapter 2: Components - The Heart of React
+### Chapter 2: Components - The Heart of React
 
 2.1 Understanding Components
 Definition and significance.
@@ -33,7 +33,7 @@ Comparing with functional components.
 Creating a user profile component.
 Building a dynamic list component.
 
-###Chapter 3: Props - Communicating Between Components
+### Chapter 3: Props - Communicating Between Components
 
 3.1 Introduction to Props
 Definition and usage.
@@ -54,7 +54,7 @@ Rendering child components.
 Building a button component with various props.
 Creating a layout component using children prop.
 
-###Chapter 4: State - The Dynamic Aspect of Components
+### Chapter 4: State - The Dynamic Aspect of Components
 4.1 What is State?
 
 4.2 Managing State in Class Components
@@ -67,7 +67,7 @@ Differences and benefits.
 Creating a counter component.
 Building a theme switcher.
 
-###Chapter 5: Lifecycles, Effects, and Side Effects
+### Chapter 5: Lifecycles, Effects, and Side Effects
 5.1 Understanding Component Lifecycles
 
 5.2 Lifecycle Methods in Class Components
@@ -84,7 +84,7 @@ Skipping effects, multiple effects, and dependencies.
 
 Fetching data on component mount.
 Observing DOM changes using effects.
-###Chapter 6: Hooks - Expanding Functional Components
+### Chapter 6: Hooks - Expanding Functional Components
 6.1 Why Hooks?
 
 Problems hooks address.
@@ -99,7 +99,7 @@ Encapsulating and reusing logic.
 Global state with useContext and useReducer.
 Custom form handling hook.
 
-###Chapter 7: Advanced Patterns
+### Chapter 7: Advanced Patterns
 7.1 Context for Global State
 
 7.2 Refs and the DOM
@@ -116,7 +116,7 @@ Handling and preventing crashes.
 Modal implementation with Portals.
 Error-proofing an app with boundaries.
 
-###Chapter 8: Pulling it All Together
+### Chapter 8: Pulling it All Together
 8.1 Building a Complete App
 
 From setup to deployment.
