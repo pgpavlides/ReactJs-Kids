@@ -1,3 +1,19 @@
+<h1 align="center">
+ ReactJS-Kids 🐤 
+</h1>
+
+<p align="center">
+<img src="https://knackforge.com/wp-content/uploads/2022/11/Benefits-of-ReactJS.jpg" height="200px">
+</p>
+<p align="center">
+"Welcome to ReactJS-Kids. This is an Introduction to React for young coders and enthusiasts. Here, we'll take a playful journey through the world of React, breaking down its complexities into fun and digestible chunks. " 🎉
+</p>
+
+
+<p align="center">
+<img src="https://github.com/pgpavlides/ReactJs-Kids/assets/95945945/c84e0642-e4fe-4fb8-af16-6705fe3264b2" height="120px" width="100%" > 
+</p>
+
 **Chapter 1: JSX - Bridging the Gap Between JavaScript and HTML**
 
 ***1.1 What is JSX?***
@@ -112,23 +128,6 @@
  - Problems hooks address.
 
 ***6.2 Common Hooks and Patterns***
-
-
-| **Section**             | **Subtopics**   |
-|-------------------------|-----------------|
-| **1. useState**         | - Introduction and Purpose <br/> - Basic Usage <br/> - Handling Complex State <br/> - Limitations and Tips |
-| **2. useEffect**        | - Introduction and Purpose <br/> - Running Effects After Renders <br/> - Cleanup with useEffect <br/> - Dependency Array Deep Dive <br/> - Tips and Common Pitfalls |
-| **3. useContext**      | - Introduction to Context in React <br/> - Creating and Using Contexts <br/> - Consuming Context with useContext <br/> - Practical Use Cases: Theme Switcher, Multi-language Sites |
-| **4. useReducer**       | - Introduction and When to Use <br/> - Basic Reducer Pattern <br/> - Actions and Dispatch <br/> - Async Actions and Middleware |
-| **5. useRef**           | - Introduction and Purpose <br/> - Accessing DOM Elements <br/> - Storing Mutable Values <br/> - Comparing with useState |
-| **6. useMemo**          | - Introduction and Why We Need It <br/> - Optimizing Computation-heavy Functions <br/> - Limitations and When Not to Use |
-| **7. useCallback**      | - Introduction and Purpose <br/> - Memorizing Callbacks <br/> - Use Cases in Event Handlers <br/> - Comparing with useMemo |
-| **8. useLayoutEffect**  | - Introduction and Comparison with useEffect <br/> - Use Cases: DOM Manipulations and Measurements <br/> - When and Why to Choose useLayoutEffect |
-| **9. useImperativeHandle** | - Introduction and Use Cases <br/> - Forwarding Refs and Exposing Component Methods <br/> - Working with useRef |
-| **10. Custom Hooks**    | - Introduction to Custom Hooks <br/> - Benefits and Use Cases <br/> - Design Patterns and Best Practices |
-| **11. Other Hooks**     | - useDebugValue <br/> - useTransition <br/> - useDeferredValue <br/> - And other emerging hooks |
-| **12. Patterns and Best Practices** | - Organizing Logic with Hooks <br/> - Reusing Logic Across Components <br/> - Performance Considerations <br/> - Testing Components with Hooks |
-
 
 
 ***6.3 Building Custom Hooks***
@@ -284,7 +283,6 @@ Imagine you have a magical box that can tell you how many candies you have insid
 
 In JSX, the magic box could be created like this:
 
-  
 
     <magicBox>
     
