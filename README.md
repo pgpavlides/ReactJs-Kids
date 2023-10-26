@@ -114,6 +114,23 @@
 ***6.2 Common Hooks and Patterns***
 
 
+| **Section**             | **Subtopics**   |
+|-------------------------|-----------------|
+| **1. useState**         | - Introduction and Purpose <br/> - Basic Usage <br/> - Handling Complex State <br/> - Limitations and Tips |
+| **2. useEffect**        | - Introduction and Purpose <br/> - Running Effects After Renders <br/> - Cleanup with useEffect <br/> - Dependency Array Deep Dive <br/> - Tips and Common Pitfalls |
+| **3. useContext**      | - Introduction to Context in React <br/> - Creating and Using Contexts <br/> - Consuming Context with useContext <br/> - Practical Use Cases: Theme Switcher, Multi-language Sites |
+| **4. useReducer**       | - Introduction and When to Use <br/> - Basic Reducer Pattern <br/> - Actions and Dispatch <br/> - Async Actions and Middleware |
+| **5. useRef**           | - Introduction and Purpose <br/> - Accessing DOM Elements <br/> - Storing Mutable Values <br/> - Comparing with useState |
+| **6. useMemo**          | - Introduction and Why We Need It <br/> - Optimizing Computation-heavy Functions <br/> - Limitations and When Not to Use |
+| **7. useCallback**      | - Introduction and Purpose <br/> - Memorizing Callbacks <br/> - Use Cases in Event Handlers <br/> - Comparing with useMemo |
+| **8. useLayoutEffect**  | - Introduction and Comparison with useEffect <br/> - Use Cases: DOM Manipulations and Measurements <br/> - When and Why to Choose useLayoutEffect |
+| **9. useImperativeHandle** | - Introduction and Use Cases <br/> - Forwarding Refs and Exposing Component Methods <br/> - Working with useRef |
+| **10. Custom Hooks**    | - Introduction to Custom Hooks <br/> - Benefits and Use Cases <br/> - Design Patterns and Best Practices |
+| **11. Other Hooks**     | - useDebugValue <br/> - useTransition <br/> - useDeferredValue <br/> - And other emerging hooks |
+| **12. Patterns and Best Practices** | - Organizing Logic with Hooks <br/> - Reusing Logic Across Components <br/> - Performance Considerations <br/> - Testing Components with Hooks |
+
+
+
 ***6.3 Building Custom Hooks***
 
  - Encapsulating and reusing logic.
