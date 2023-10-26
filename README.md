@@ -109,88 +109,63 @@
 
 ***6.1 Why Hooks?***
 
+ - Problems hooks address.
 
-Problems hooks address.
+***6.2 Common Hooks and Patterns***
 
-6.2 Common Hooks and Patterns
 
-  
+***6.3 Building Custom Hooks***
 
-useContext, useReducer, useRef, and others.
+ - Encapsulating and reusing logic.
 
-6.3 Building Custom Hooks
-
-  
-
-Encapsulating and reusing logic.
-
-6.4 Exercises
-
-  
+***6.4 Exercises***
 
 Global state with useContext and useReducer.
-
 Custom form handling hook.
 
   
+**Chapter 7: Advanced Patterns**
 
-Chapter 7: Advanced Patterns
-
-7.1 Context for Global State
-
-  
-
-7.2 Refs and the DOM
+***7.1 Context for Global State***
 
   
+
+***7.2 Refs and the DOM***
 
 Using useRef and createRef.
 
-7.3 Fragments and Portals
+***7.3 Fragments and Portals***
 
   
 
 Advanced rendering techniques.
 
-7.4 Error Boundaries
+***7.4 Error Boundaries***
 
   
 
 Handling and preventing crashes.
 
-7.5 Exercises
-
-  
+***7.5 Exercises***
 
 Modal implementation with Portals.
-
 Error-proofing an app with boundaries.
 
-  
+**Chapter 8: Pulling it All Together**
 
-Chapter 8: Pulling it All Together
-
-8.1 Building a Complete App
-
-  
+***8.1 Building a Complete App***
 
 From setup to deployment.
 
-8.2 Best Practices
-
-  
+***8.2 Best Practices***
 
 Code organization, performance optimizations.
 
-8.3 Beyond the Basics
-
-  
+***8.3 Beyond the Basics***
 
 Introduction to topics like Redux, Routing, etc.
 
-8.4 Exercises
-
-  
+***8.4 Exercises***
 
 Full-fledged ToDo app with all concepts.
 
@@ -294,11 +269,11 @@ In JSX, the magic box could be created like this:
 
   
 
-<magicBox>
-
-<numberDisplay />
-
-</magicBox>
+    <magicBox>
+    
+    <numberDisplay />
+    
+    </magicBox>
 
   
 
@@ -318,7 +293,7 @@ In JSX, this is how we'd write it:
 
   
 
-const candies = 5; // This is where we keep track of our candies.
+    const candies = 5; // This is where we keep track of our candies.
 
   
 
@@ -397,7 +372,7 @@ Finishing Touch: Once you've put all your magic pieces together, you've successf
 
 Example:
 
-If you have an HTML piece like this: <div>Hello, world!</div>
+If you have an HTML piece like this: `<div>Hello, world!</div>`
 
 In JSX, it's already the same! But remember, sometimes you might need to adjust a piece or two to make them fit perfectly.
 
@@ -421,9 +396,13 @@ In JSX, your "wish" is the dynamic data, and the window is the code that listens
 
 Example:
 
-Suppose you have a list of views: const views = { beach: 'Sunny Beach', jungle: 'Green Jungle', snow: 'Snowy Penguins' };
+Suppose you have a list of views: 
 
-In JSX, to show the snowy view, you'd write: <magicWindow>{views.snow}</magicWindow>
+    const views = { beach: 'Sunny Beach', jungle: 'Green Jungle', snow: 'Snowy Penguins' };
+
+In JSX, to show the snowy view, you'd write: 
+
+    <magicWindow>{views.snow}</magicWindow>
 
 And just like that, your magic window would show "Snowy Penguins"!
 
